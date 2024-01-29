@@ -4768,7 +4768,7 @@ ul:last-child {
 
 .btn.search-btn {
   background: #fd5332;
-  padding: 17px;
+  padding: 13px;
   border-radius: 5px;
   box-shadow: 0 5px 24px rgba(31, 37, 59, 0.15);
   color: #fff;
@@ -11091,6 +11091,7 @@ ul.booking-detail-list li span {
   margin: 0;
   color: #fff;
   letter-spacing: 1px;
+  line-height: 37px;
 }
 
 .dashboard-stat-content span {
@@ -11680,6 +11681,12 @@ ul.packages-lists-list li {
     left: 0;
     display: none;
   }
+  .sm-sidebar.active {
+    display: block;
+  }
+  /* .sm-sidebar.deactive {
+    display: none;
+  } */
 
   .change-logo .nav-brand.static-logo {
     display: none;
@@ -12279,4 +12286,16 @@ a.blue2-theme {
   .sd-list-right {
     padding: 1rem;
   }
+}
+
+.forms-rows {
+  --bs-gutter-y: 0.5rem;
+}
+
+.button-rows {
+  --bs-gutter-y: 0.5rem;
+}
+
+.agent-search-rows {
+  --bs-gutter-y: 0.5rem;
 }
