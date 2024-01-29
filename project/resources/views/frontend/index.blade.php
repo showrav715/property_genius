@@ -96,6 +96,7 @@
                     <div class="row">
                         <div class="col-lg-12 col-md-12">
                             <div class="property-slide">
+                          
                                 @foreach ($properties as $key => $data)
                                     <!-- Single Property -->
                                     <div class="single-items">
@@ -265,7 +266,7 @@
                                 </div>
 
                                 <div class="blog-info">
-                                    <span class="post-date"><i class="ti-calendar"></i>{{ $data->created_at->format('d M Y') }}</span>
+                                    <span class="post-date"><i class="ti-calendar"></i>{{ Carbon\Carbon::parse($data->created_at)->format('d M Y') }}</span>
                                 </div>
 
                                 <div class="blog-body">

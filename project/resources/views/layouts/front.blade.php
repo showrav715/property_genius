@@ -82,7 +82,7 @@
 
 
     @if ($gs->is_cookie)
-        @include('cookieConsent::index')
+    @include('cookie-consent::index')
     @endif
 
 

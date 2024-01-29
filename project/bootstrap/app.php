@@ -41,12 +41,6 @@ $app->singleton(
     App\Exceptions\Handler::class
 );
 
-$app->bind('path.public', function () {
-    return base_path() . '/../';
-});
-
-$app->useEnvironmentPath(realpath(__DIR__ . '/../vendor/markury/src/'));
-
 /*
 |--------------------------------------------------------------------------
 | Return The Application

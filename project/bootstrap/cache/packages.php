@@ -7,7 +7,8 @@
     ),
     'aliases' => 
     array (
-      'PDF' => 'Barryvdh\\DomPDF\\Facade',
+      'Pdf' => 'Barryvdh\\DomPDF\\Facade\\Pdf',
+      'PDF' => 'Barryvdh\\DomPDF\\Facade\\Pdf',
     ),
   ),
   'brian2694/laravel-toastr' => 
@@ -19,42 +20,6 @@
     'aliases' => 
     array (
       'Toastr' => 'Brian2694\\Toastr\\Facades\\Toastr',
-    ),
-  ),
-  'cartalyst/stripe-laravel' => 
-  array (
-    'providers' => 
-    array (
-      0 => 'Cartalyst\\Stripe\\Laravel\\StripeServiceProvider',
-    ),
-    'aliases' => 
-    array (
-      'Stripe' => 'Cartalyst\\Stripe\\Laravel\\Facades\\Stripe',
-    ),
-  ),
-  'facade/ignition' => 
-  array (
-    'providers' => 
-    array (
-      0 => 'Facade\\Ignition\\IgnitionServiceProvider',
-    ),
-    'aliases' => 
-    array (
-      'Flare' => 'Facade\\Ignition\\Facades\\Flare',
-    ),
-  ),
-  'fideloper/proxy' => 
-  array (
-    'providers' => 
-    array (
-      0 => 'Fideloper\\Proxy\\TrustedProxyServiceProvider',
-    ),
-  ),
-  'fruitcake/laravel-cors' => 
-  array (
-    'providers' => 
-    array (
-      0 => 'Fruitcake\\Cors\\CorsServiceProvider',
     ),
   ),
   'intervention/image' => 
@@ -73,6 +38,13 @@
     'providers' => 
     array (
       0 => 'Laravel\\Sail\\SailServiceProvider',
+    ),
+  ),
+  'laravel/sanctum' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Laravel\\Sanctum\\SanctumServiceProvider',
     ),
   ),
   'laravel/tinker' => 
@@ -111,22 +83,18 @@
       0 => 'Carbon\\Laravel\\ServiceProvider',
     ),
   ),
-  'nexmo/laravel' => 
-  array (
-    'providers' => 
-    array (
-      0 => 'Nexmo\\Laravel\\NexmoServiceProvider',
-    ),
-    'aliases' => 
-    array (
-      'Nexmo' => 'Nexmo\\Laravel\\Facade\\Nexmo',
-    ),
-  ),
   'nunomaduro/collision' => 
   array (
     'providers' => 
     array (
       0 => 'NunoMaduro\\Collision\\Adapters\\Laravel\\CollisionServiceProvider',
+    ),
+  ),
+  'nunomaduro/termwind' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Termwind\\Laravel\\TermwindServiceProvider',
     ),
   ),
   'spatie/laravel-cookie-consent' => 
@@ -136,11 +104,33 @@
       0 => 'Spatie\\CookieConsent\\CookieConsentServiceProvider',
     ),
   ),
+  'spatie/laravel-ignition' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Spatie\\LaravelIgnition\\IgnitionServiceProvider',
+    ),
+    'aliases' => 
+    array (
+      'Flare' => 'Spatie\\LaravelIgnition\\Facades\\Flare',
+    ),
+  ),
   'spatie/laravel-sitemap' => 
   array (
     'providers' => 
     array (
       0 => 'Spatie\\Sitemap\\SitemapServiceProvider',
+    ),
+  ),
+  'vonage/vonage-laravel' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Vonage\\Laravel\\VonageServiceProvider',
+    ),
+    'aliases' => 
+    array (
+      'Vonage' => 'Vonage\\Laravel\\Facade\\Vonage',
     ),
   ),
   'yajra/laravel-datatables-oracle' => 
@@ -162,7 +152,7 @@
     ),
     'aliases' => 
     array (
-      'Zip' => 'ZanySoft\\Zip\\ZipFacade',
+      'Zip' => 'ZanySoft\\Zip\\Facades\\Zip',
     ),
   ),
 );
