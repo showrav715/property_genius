@@ -30,7 +30,7 @@ class FrontendController extends Controller
 {
     public function __construct()
     {
-        $this->auth_guests();
+        //$this->auth_guests();
     }
 
     public function index(Request $request){
